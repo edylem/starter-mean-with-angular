@@ -24,7 +24,7 @@ router.post('/', function (req, res) {
             // Parameter
             req.body,
             // Callback on success
-            function (results) { res.send() });
+            function (results) { res.send(results) });
     }
 });
 

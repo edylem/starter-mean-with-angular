@@ -12,7 +12,7 @@ Have a MongoDB instance started on default port
 npm install
 
 # Run
-ng build
+ng build<br>
 npm start
 
 # Use

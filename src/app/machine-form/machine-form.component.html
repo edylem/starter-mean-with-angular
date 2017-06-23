@@ -1,0 +1,10 @@
+<h2>Machine Form</h2>
+
+<form #machineForm="ngForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="machineName">New Machine Name</label>
+    <input type="text" id="machineName" name="machineName" [(ngModel)]="model.name" required />
+  </div>
+  <button type="submit">Add</button>
+
+</form>
