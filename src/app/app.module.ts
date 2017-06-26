@@ -8,18 +8,22 @@ import { AppComponent } from './app.component';
 import { HttpService } from './common/http/http.service';
 import { MachineListComponent } from './machine-list/machine-list.component';
 import { MachineService } from './service/machine.service';
+import { AboutComponent } from './about/about.component';
+import { routing } from './app.routing';
 import { MachineFormComponent } from './machine-form/machine-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MachineListComponent,
-    MachineFormComponent
+    MachineFormComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule
+    FormsModule,
+    routing
   ],
   providers: [
     HttpService,
