@@ -5,12 +5,12 @@ import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
-import { HttpService } from './common/http/http.service';
-import { MachineListComponent } from './machine-list/machine-list.component';
-import { MachineService } from './service/machine.service';
-import { AboutComponent } from './about/about.component';
+import { HttpService } from './services/http/http.service';
+import { MachineListComponent } from './components/machine-list/machine-list.component';
+import { MachineService } from './services/machine/machine.service';
+import { AboutComponent } from './components/about/about.component';
 import { routing } from './app.routing';
-import { MachineFormComponent } from './machine-form/machine-form.component';
+import { MachineFormComponent } from './components/machine-form/machine-form.component';
 
 @NgModule({
   declarations: [

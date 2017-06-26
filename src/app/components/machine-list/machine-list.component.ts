@@ -1,4 +1,4 @@
-import { MachineService } from '../service/machine.service';
+import { MachineService } from '../../services/machine/machine.service';
 
 import { Component, OnInit } from '@angular/core';
 

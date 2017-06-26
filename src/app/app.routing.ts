@@ -1,6 +1,6 @@
-import { AboutComponent } from './about/about.component';
-import { MachineFormComponent } from './machine-form/machine-form.component';
-import { MachineListComponent } from './machine-list/machine-list.component';
+import { AboutComponent } from './components/about/about.component';
+import { MachineFormComponent } from './components/machine-form/machine-form.component';
+import { MachineListComponent } from './components/machine-list/machine-list.component';
 
 import { Routes, RouterModule } from '@angular/router';
 

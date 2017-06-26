@@ -1,4 +1,4 @@
-import { HttpService } from '../common/http/http.service';
+import { HttpService } from '../http/http.service';
 import { Subject } from 'rxjs/Subject';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Observable } from 'rxjs/Observable';
