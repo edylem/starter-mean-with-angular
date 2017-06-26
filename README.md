@@ -3,7 +3,9 @@
 # starter-mean-with-angular
 Starter project for stack MEAN with Angular
 Are also configured :
+ - Angular-CLI project
  - @angular/router
+ - Bootstrap 3
 
 # Pre-requisites
 Node and NPM are correctly installed (tested with Node 6.9.1 and NPM 3.10.8)<br>

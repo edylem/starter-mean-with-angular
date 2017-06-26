@@ -3,9 +3,9 @@
 <form #machineForm="ngForm" (ngSubmit)="onSubmit()">
   <div class="form-group">
     <label for="machineName">New Machine Name</label>
-    <input type="text" id="machineName" name="machineName" [(ngModel)]="model.name" required />
+    <input type="text" id="machineName" name="machineName" class="form-control" [(ngModel)]="model.name" required />
   </div>
-  <button type="submit">Add</button>
+  <button type="submit" class="btn btn-success">Add</button>
 
 </form>
 
